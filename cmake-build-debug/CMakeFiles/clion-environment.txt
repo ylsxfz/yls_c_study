@@ -1,0 +1,4 @@
+ToolSet: w64 6.0 (local)@C:\yls_prgram_files\mingw64-8.1.0-release-posix-seh-rt_v6-rev0
+Options: 
+
+Options:
