@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/yls_c_study.dir/main.c.obj"
+  "CMakeFiles/yls_c_study.dir/yls_base/h_structural_morphology.c.obj"
   "libyls_c_study.dll.a"
   "yls_c_study.exe"
   "yls_c_study.exe.manifest"

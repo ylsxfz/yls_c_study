@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/workspace/yls_c++_workspace/yls_c_study/main.c" "E:/workspace/yls_c++_workspace/yls_c_study/cmake-build-debug/CMakeFiles/yls_c_study.dir/main.c.obj"
+  "D:/workspace/yls_c_c++_workspace/yls_c_study/yls_base/h_structural_morphology.c" "D:/workspace/yls_c_c++_workspace/yls_c_study/cmake-build-debug/CMakeFiles/yls_c_study.dir/yls_base/h_structural_morphology.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

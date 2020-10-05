@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\yls_prgram_files\CLion-2020.1.win\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = D:\yls_prgram_files\JetBrains\CLion-2020.1.win\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\yls_prgram_files\CLion-2020.1.win\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = D:\yls_prgram_files\JetBrains\CLion-2020.1.win\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\workspace\yls_c++_workspace\yls_c_study
+CMAKE_SOURCE_DIR = D:\workspace\yls_c_c++_workspace\yls_c_study
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\workspace\yls_c++_workspace\yls_c_study\cmake-build-debug
+CMAKE_BINARY_DIR = D:\workspace\yls_c_c++_workspace\yls_c_study\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = E:\workspace\yls_c++_workspace\yls_c_study\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\yls_prgram_files\CLion-2020.1.win\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	D:\yls_prgram_files\JetBrains\CLion-2020.1.win\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\yls_prgram_files\CLion-2020.1.win\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	D:\yls_prgram_files\JetBrains\CLion-2020.1.win\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\yls_c++_workspace\yls_c_study\cmake-build-debug\CMakeFiles E:\workspace\yls_c++_workspace\yls_c_study\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\yls_c_c++_workspace\yls_c_study\cmake-build-debug\CMakeFiles D:\workspace\yls_c_c++_workspace\yls_c_study\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\workspace\yls_c++_workspace\yls_c_study\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\yls_c_c++_workspace\yls_c_study\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,32 +122,32 @@ yls_c_study/fast:
 	$(MAKE) -f CMakeFiles\yls_c_study.dir\build.make CMakeFiles/yls_c_study.dir/build
 .PHONY : yls_c_study/fast
 
-main.obj: main.c.obj
+yls_base/h_structural_morphology.obj: yls_base/h_structural_morphology.c.obj
 
-.PHONY : main.obj
+.PHONY : yls_base/h_structural_morphology.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) -f CMakeFiles\yls_c_study.dir\build.make CMakeFiles/yls_c_study.dir/main.c.obj
-.PHONY : main.c.obj
+yls_base/h_structural_morphology.c.obj:
+	$(MAKE) -f CMakeFiles\yls_c_study.dir\build.make CMakeFiles/yls_c_study.dir/yls_base/h_structural_morphology.c.obj
+.PHONY : yls_base/h_structural_morphology.c.obj
 
-main.i: main.c.i
+yls_base/h_structural_morphology.i: yls_base/h_structural_morphology.c.i
 
-.PHONY : main.i
+.PHONY : yls_base/h_structural_morphology.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles\yls_c_study.dir\build.make CMakeFiles/yls_c_study.dir/main.c.i
-.PHONY : main.c.i
+yls_base/h_structural_morphology.c.i:
+	$(MAKE) -f CMakeFiles\yls_c_study.dir\build.make CMakeFiles/yls_c_study.dir/yls_base/h_structural_morphology.c.i
+.PHONY : yls_base/h_structural_morphology.c.i
 
-main.s: main.c.s
+yls_base/h_structural_morphology.s: yls_base/h_structural_morphology.c.s
 
-.PHONY : main.s
+.PHONY : yls_base/h_structural_morphology.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles\yls_c_study.dir\build.make CMakeFiles/yls_c_study.dir/main.c.s
-.PHONY : main.c.s
+yls_base/h_structural_morphology.c.s:
+	$(MAKE) -f CMakeFiles\yls_c_study.dir\build.make CMakeFiles/yls_c_study.dir/yls_base/h_structural_morphology.c.s
+.PHONY : yls_base/h_structural_morphology.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... yls_c_study
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... yls_base/h_structural_morphology.obj
+	@echo ... yls_base/h_structural_morphology.i
+	@echo ... yls_base/h_structural_morphology.s
 .PHONY : help
 
 

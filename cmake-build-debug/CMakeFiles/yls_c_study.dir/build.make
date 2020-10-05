@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\yls_prgram_files\CLion-2020.1.win\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = D:\yls_prgram_files\JetBrains\CLion-2020.1.win\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\yls_prgram_files\CLion-2020.1.win\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = D:\yls_prgram_files\JetBrains\CLion-2020.1.win\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\workspace\yls_c++_workspace\yls_c_study
+CMAKE_SOURCE_DIR = D:\workspace\yls_c_c++_workspace\yls_c_study
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\workspace\yls_c++_workspace\yls_c_study\cmake-build-debug
+CMAKE_BINARY_DIR = D:\workspace\yls_c_c++_workspace\yls_c_study\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/yls_c_study.dir/depend.make
@@ -56,32 +56,32 @@ include CMakeFiles/yls_c_study.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/yls_c_study.dir/flags.make
 
-CMakeFiles/yls_c_study.dir/main.c.obj: CMakeFiles/yls_c_study.dir/flags.make
-CMakeFiles/yls_c_study.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\workspace\yls_c++_workspace\yls_c_study\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/yls_c_study.dir/main.c.obj"
-	C:\yls_prgram_files\mingw64-8.1.0-release-posix-seh-rt_v6-rev0\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\yls_c_study.dir\main.c.obj   -c E:\workspace\yls_c++_workspace\yls_c_study\main.c
+CMakeFiles/yls_c_study.dir/yls_base/h_structural_morphology.c.obj: CMakeFiles/yls_c_study.dir/flags.make
+CMakeFiles/yls_c_study.dir/yls_base/h_structural_morphology.c.obj: ../yls_base/h_structural_morphology.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\workspace\yls_c_c++_workspace\yls_c_study\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/yls_c_study.dir/yls_base/h_structural_morphology.c.obj"
+	D:\yls_prgram_files\mingw64-8.1.0-release-posix-seh-rt_v6-rev0\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\yls_c_study.dir\yls_base\h_structural_morphology.c.obj   -c D:\workspace\yls_c_c++_workspace\yls_c_study\yls_base\h_structural_morphology.c
 
-CMakeFiles/yls_c_study.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/yls_c_study.dir/main.c.i"
-	C:\yls_prgram_files\mingw64-8.1.0-release-posix-seh-rt_v6-rev0\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\workspace\yls_c++_workspace\yls_c_study\main.c > CMakeFiles\yls_c_study.dir\main.c.i
+CMakeFiles/yls_c_study.dir/yls_base/h_structural_morphology.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/yls_c_study.dir/yls_base/h_structural_morphology.c.i"
+	D:\yls_prgram_files\mingw64-8.1.0-release-posix-seh-rt_v6-rev0\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\workspace\yls_c_c++_workspace\yls_c_study\yls_base\h_structural_morphology.c > CMakeFiles\yls_c_study.dir\yls_base\h_structural_morphology.c.i
 
-CMakeFiles/yls_c_study.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/yls_c_study.dir/main.c.s"
-	C:\yls_prgram_files\mingw64-8.1.0-release-posix-seh-rt_v6-rev0\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\workspace\yls_c++_workspace\yls_c_study\main.c -o CMakeFiles\yls_c_study.dir\main.c.s
+CMakeFiles/yls_c_study.dir/yls_base/h_structural_morphology.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/yls_c_study.dir/yls_base/h_structural_morphology.c.s"
+	D:\yls_prgram_files\mingw64-8.1.0-release-posix-seh-rt_v6-rev0\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\workspace\yls_c_c++_workspace\yls_c_study\yls_base\h_structural_morphology.c -o CMakeFiles\yls_c_study.dir\yls_base\h_structural_morphology.c.s
 
 # Object files for target yls_c_study
 yls_c_study_OBJECTS = \
-"CMakeFiles/yls_c_study.dir/main.c.obj"
+"CMakeFiles/yls_c_study.dir/yls_base/h_structural_morphology.c.obj"
 
 # External object files for target yls_c_study
 yls_c_study_EXTERNAL_OBJECTS =
 
-yls_c_study.exe: CMakeFiles/yls_c_study.dir/main.c.obj
+yls_c_study.exe: CMakeFiles/yls_c_study.dir/yls_base/h_structural_morphology.c.obj
 yls_c_study.exe: CMakeFiles/yls_c_study.dir/build.make
 yls_c_study.exe: CMakeFiles/yls_c_study.dir/linklibs.rsp
 yls_c_study.exe: CMakeFiles/yls_c_study.dir/objects1.rsp
 yls_c_study.exe: CMakeFiles/yls_c_study.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\workspace\yls_c++_workspace\yls_c_study\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable yls_c_study.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\workspace\yls_c_c++_workspace\yls_c_study\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable yls_c_study.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\yls_c_study.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -94,6 +94,6 @@ CMakeFiles/yls_c_study.dir/clean:
 .PHONY : CMakeFiles/yls_c_study.dir/clean
 
 CMakeFiles/yls_c_study.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\workspace\yls_c++_workspace\yls_c_study E:\workspace\yls_c++_workspace\yls_c_study E:\workspace\yls_c++_workspace\yls_c_study\cmake-build-debug E:\workspace\yls_c++_workspace\yls_c_study\cmake-build-debug E:\workspace\yls_c++_workspace\yls_c_study\cmake-build-debug\CMakeFiles\yls_c_study.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\workspace\yls_c_c++_workspace\yls_c_study D:\workspace\yls_c_c++_workspace\yls_c_study D:\workspace\yls_c_c++_workspace\yls_c_study\cmake-build-debug D:\workspace\yls_c_c++_workspace\yls_c_study\cmake-build-debug D:\workspace\yls_c_c++_workspace\yls_c_study\cmake-build-debug\CMakeFiles\yls_c_study.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/yls_c_study.dir/depend
 

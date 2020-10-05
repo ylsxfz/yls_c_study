@@ -3,4 +3,4 @@ project(yls_c_study C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(yls_c_study main.c)
+add_executable(yls_c_study yls_base/h_structural_morphology.c)
