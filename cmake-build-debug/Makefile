@@ -122,32 +122,32 @@ yls_c_study/fast:
 	$(MAKE) -f CMakeFiles\yls_c_study.dir\build.make CMakeFiles/yls_c_study.dir/build
 .PHONY : yls_c_study/fast
 
-yls_base/h_structural_morphology.obj: yls_base/h_structural_morphology.c.obj
+yls_b_advanced/d_input_output.obj: yls_b_advanced/d_input_output.c.obj
 
-.PHONY : yls_base/h_structural_morphology.obj
+.PHONY : yls_b_advanced/d_input_output.obj
 
 # target to build an object file
-yls_base/h_structural_morphology.c.obj:
-	$(MAKE) -f CMakeFiles\yls_c_study.dir\build.make CMakeFiles/yls_c_study.dir/yls_base/h_structural_morphology.c.obj
-.PHONY : yls_base/h_structural_morphology.c.obj
+yls_b_advanced/d_input_output.c.obj:
+	$(MAKE) -f CMakeFiles\yls_c_study.dir\build.make CMakeFiles/yls_c_study.dir/yls_b_advanced/d_input_output.c.obj
+.PHONY : yls_b_advanced/d_input_output.c.obj
 
-yls_base/h_structural_morphology.i: yls_base/h_structural_morphology.c.i
+yls_b_advanced/d_input_output.i: yls_b_advanced/d_input_output.c.i
 
-.PHONY : yls_base/h_structural_morphology.i
+.PHONY : yls_b_advanced/d_input_output.i
 
 # target to preprocess a source file
-yls_base/h_structural_morphology.c.i:
-	$(MAKE) -f CMakeFiles\yls_c_study.dir\build.make CMakeFiles/yls_c_study.dir/yls_base/h_structural_morphology.c.i
-.PHONY : yls_base/h_structural_morphology.c.i
+yls_b_advanced/d_input_output.c.i:
+	$(MAKE) -f CMakeFiles\yls_c_study.dir\build.make CMakeFiles/yls_c_study.dir/yls_b_advanced/d_input_output.c.i
+.PHONY : yls_b_advanced/d_input_output.c.i
 
-yls_base/h_structural_morphology.s: yls_base/h_structural_morphology.c.s
+yls_b_advanced/d_input_output.s: yls_b_advanced/d_input_output.c.s
 
-.PHONY : yls_base/h_structural_morphology.s
+.PHONY : yls_b_advanced/d_input_output.s
 
 # target to generate assembly for a file
-yls_base/h_structural_morphology.c.s:
-	$(MAKE) -f CMakeFiles\yls_c_study.dir\build.make CMakeFiles/yls_c_study.dir/yls_base/h_structural_morphology.c.s
-.PHONY : yls_base/h_structural_morphology.c.s
+yls_b_advanced/d_input_output.c.s:
+	$(MAKE) -f CMakeFiles\yls_c_study.dir\build.make CMakeFiles/yls_c_study.dir/yls_b_advanced/d_input_output.c.s
+.PHONY : yls_b_advanced/d_input_output.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... yls_c_study
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... yls_base/h_structural_morphology.obj
-	@echo ... yls_base/h_structural_morphology.i
-	@echo ... yls_base/h_structural_morphology.s
+	@echo ... yls_b_advanced/d_input_output.obj
+	@echo ... yls_b_advanced/d_input_output.i
+	@echo ... yls_b_advanced/d_input_output.s
 .PHONY : help
 
 
