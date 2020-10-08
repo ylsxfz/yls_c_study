@@ -56,27 +56,27 @@ include CMakeFiles/yls_c_study.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/yls_c_study.dir/flags.make
 
-CMakeFiles/yls_c_study.dir/yls_b_advanced/d_input_output.c.obj: CMakeFiles/yls_c_study.dir/flags.make
-CMakeFiles/yls_c_study.dir/yls_b_advanced/d_input_output.c.obj: ../yls_b_advanced/d_input_output.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\workspace\yls_c_c++_workspace\yls_c_study\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/yls_c_study.dir/yls_b_advanced/d_input_output.c.obj"
-	D:\yls_prgram_files\mingw64-8.1.0-release-posix-seh-rt_v6-rev0\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\yls_c_study.dir\yls_b_advanced\d_input_output.c.obj   -c D:\workspace\yls_c_c++_workspace\yls_c_study\yls_b_advanced\d_input_output.c
+CMakeFiles/yls_c_study.dir/yls_b_advanced/e_file_read_write.c.obj: CMakeFiles/yls_c_study.dir/flags.make
+CMakeFiles/yls_c_study.dir/yls_b_advanced/e_file_read_write.c.obj: ../yls_b_advanced/e_file_read_write.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\workspace\yls_c_c++_workspace\yls_c_study\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/yls_c_study.dir/yls_b_advanced/e_file_read_write.c.obj"
+	D:\yls_prgram_files\mingw64-8.1.0-release-posix-seh-rt_v6-rev0\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\yls_c_study.dir\yls_b_advanced\e_file_read_write.c.obj   -c D:\workspace\yls_c_c++_workspace\yls_c_study\yls_b_advanced\e_file_read_write.c
 
-CMakeFiles/yls_c_study.dir/yls_b_advanced/d_input_output.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/yls_c_study.dir/yls_b_advanced/d_input_output.c.i"
-	D:\yls_prgram_files\mingw64-8.1.0-release-posix-seh-rt_v6-rev0\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\workspace\yls_c_c++_workspace\yls_c_study\yls_b_advanced\d_input_output.c > CMakeFiles\yls_c_study.dir\yls_b_advanced\d_input_output.c.i
+CMakeFiles/yls_c_study.dir/yls_b_advanced/e_file_read_write.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/yls_c_study.dir/yls_b_advanced/e_file_read_write.c.i"
+	D:\yls_prgram_files\mingw64-8.1.0-release-posix-seh-rt_v6-rev0\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\workspace\yls_c_c++_workspace\yls_c_study\yls_b_advanced\e_file_read_write.c > CMakeFiles\yls_c_study.dir\yls_b_advanced\e_file_read_write.c.i
 
-CMakeFiles/yls_c_study.dir/yls_b_advanced/d_input_output.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/yls_c_study.dir/yls_b_advanced/d_input_output.c.s"
-	D:\yls_prgram_files\mingw64-8.1.0-release-posix-seh-rt_v6-rev0\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\workspace\yls_c_c++_workspace\yls_c_study\yls_b_advanced\d_input_output.c -o CMakeFiles\yls_c_study.dir\yls_b_advanced\d_input_output.c.s
+CMakeFiles/yls_c_study.dir/yls_b_advanced/e_file_read_write.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/yls_c_study.dir/yls_b_advanced/e_file_read_write.c.s"
+	D:\yls_prgram_files\mingw64-8.1.0-release-posix-seh-rt_v6-rev0\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\workspace\yls_c_c++_workspace\yls_c_study\yls_b_advanced\e_file_read_write.c -o CMakeFiles\yls_c_study.dir\yls_b_advanced\e_file_read_write.c.s
 
 # Object files for target yls_c_study
 yls_c_study_OBJECTS = \
-"CMakeFiles/yls_c_study.dir/yls_b_advanced/d_input_output.c.obj"
+"CMakeFiles/yls_c_study.dir/yls_b_advanced/e_file_read_write.c.obj"
 
 # External object files for target yls_c_study
 yls_c_study_EXTERNAL_OBJECTS =
 
-yls_c_study.exe: CMakeFiles/yls_c_study.dir/yls_b_advanced/d_input_output.c.obj
+yls_c_study.exe: CMakeFiles/yls_c_study.dir/yls_b_advanced/e_file_read_write.c.obj
 yls_c_study.exe: CMakeFiles/yls_c_study.dir/build.make
 yls_c_study.exe: CMakeFiles/yls_c_study.dir/linklibs.rsp
 yls_c_study.exe: CMakeFiles/yls_c_study.dir/objects1.rsp

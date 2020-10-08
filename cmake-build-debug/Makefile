@@ -122,32 +122,32 @@ yls_c_study/fast:
 	$(MAKE) -f CMakeFiles\yls_c_study.dir\build.make CMakeFiles/yls_c_study.dir/build
 .PHONY : yls_c_study/fast
 
-yls_b_advanced/d_input_output.obj: yls_b_advanced/d_input_output.c.obj
+yls_b_advanced/e_file_read_write.obj: yls_b_advanced/e_file_read_write.c.obj
 
-.PHONY : yls_b_advanced/d_input_output.obj
+.PHONY : yls_b_advanced/e_file_read_write.obj
 
 # target to build an object file
-yls_b_advanced/d_input_output.c.obj:
-	$(MAKE) -f CMakeFiles\yls_c_study.dir\build.make CMakeFiles/yls_c_study.dir/yls_b_advanced/d_input_output.c.obj
-.PHONY : yls_b_advanced/d_input_output.c.obj
+yls_b_advanced/e_file_read_write.c.obj:
+	$(MAKE) -f CMakeFiles\yls_c_study.dir\build.make CMakeFiles/yls_c_study.dir/yls_b_advanced/e_file_read_write.c.obj
+.PHONY : yls_b_advanced/e_file_read_write.c.obj
 
-yls_b_advanced/d_input_output.i: yls_b_advanced/d_input_output.c.i
+yls_b_advanced/e_file_read_write.i: yls_b_advanced/e_file_read_write.c.i
 
-.PHONY : yls_b_advanced/d_input_output.i
+.PHONY : yls_b_advanced/e_file_read_write.i
 
 # target to preprocess a source file
-yls_b_advanced/d_input_output.c.i:
-	$(MAKE) -f CMakeFiles\yls_c_study.dir\build.make CMakeFiles/yls_c_study.dir/yls_b_advanced/d_input_output.c.i
-.PHONY : yls_b_advanced/d_input_output.c.i
+yls_b_advanced/e_file_read_write.c.i:
+	$(MAKE) -f CMakeFiles\yls_c_study.dir\build.make CMakeFiles/yls_c_study.dir/yls_b_advanced/e_file_read_write.c.i
+.PHONY : yls_b_advanced/e_file_read_write.c.i
 
-yls_b_advanced/d_input_output.s: yls_b_advanced/d_input_output.c.s
+yls_b_advanced/e_file_read_write.s: yls_b_advanced/e_file_read_write.c.s
 
-.PHONY : yls_b_advanced/d_input_output.s
+.PHONY : yls_b_advanced/e_file_read_write.s
 
 # target to generate assembly for a file
-yls_b_advanced/d_input_output.c.s:
-	$(MAKE) -f CMakeFiles\yls_c_study.dir\build.make CMakeFiles/yls_c_study.dir/yls_b_advanced/d_input_output.c.s
-.PHONY : yls_b_advanced/d_input_output.c.s
+yls_b_advanced/e_file_read_write.c.s:
+	$(MAKE) -f CMakeFiles\yls_c_study.dir\build.make CMakeFiles/yls_c_study.dir/yls_b_advanced/e_file_read_write.c.s
+.PHONY : yls_b_advanced/e_file_read_write.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... yls_c_study
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... yls_b_advanced/d_input_output.obj
-	@echo ... yls_b_advanced/d_input_output.i
-	@echo ... yls_b_advanced/d_input_output.s
+	@echo ... yls_b_advanced/e_file_read_write.obj
+	@echo ... yls_b_advanced/e_file_read_write.i
+	@echo ... yls_b_advanced/e_file_read_write.s
 .PHONY : help
 
 
