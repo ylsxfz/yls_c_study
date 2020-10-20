@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/workspace/yls_c_c++_workspace/yls_c_study/yls_b_advanced/e_file_read_write.c" "D:/workspace/yls_c_c++_workspace/yls_c_study/cmake-build-debug/CMakeFiles/yls_c_study.dir/yls_b_advanced/e_file_read_write.c.obj"
+  "D:/workspace/yls_c_c++_workspace/yls_c_study/yls_b_advanced/j_variable_parameters.c" "D:/workspace/yls_c_c++_workspace/yls_c_study/cmake-build-debug/CMakeFiles/yls_c_study.dir/yls_b_advanced/j_variable_parameters.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

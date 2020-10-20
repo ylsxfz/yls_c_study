@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/yls_c_study.dir/yls_b_advanced/e_file_read_write.c.obj"
+  "CMakeFiles/yls_c_study.dir/yls_b_advanced/j_variable_parameters.c.obj"
   "libyls_c_study.dll.a"
   "yls_c_study.exe"
   "yls_c_study.exe.manifest"

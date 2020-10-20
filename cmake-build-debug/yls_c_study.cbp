@@ -74,7 +74,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/workspace/yls_c_c++_workspace/yls_c_study/yls_b_advanced/e_file_read_write.c">
+		<Unit filename="D:/workspace/yls_c_c++_workspace/yls_c_study/yls_b_advanced/j_variable_parameters.c">
 			<Option target="yls_c_study"/>
 		</Unit>
 		<Unit filename="D:/workspace/yls_c_c++_workspace/yls_c_study/CMakeLists.txt">
