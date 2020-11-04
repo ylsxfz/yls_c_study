@@ -1,4 +1,0 @@
-D:\yls_prgram_files\JetBrains\CLion-2020.1.win\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\workspace\yls_c_c++_workspace\yls_c_study
--- Configuring done
--- Generating done
--- Build files have been written to: D:/workspace/yls_c_c++_workspace/yls_c_study/cmake-build-debug
