@@ -47,6 +47,36 @@ void number_divided() {
     printf("%d %% %d = %d\n", dividend,divisor,remainder);
 }
 
+
+void compare_two_number(){
+    int a,b;
+    a = 11;
+    b = 99;
+
+    if (a>b){
+        printf("a 大于 b \n");
+    } else{
+        printf("a 小于等于 b \n");
+    }
+}
+
+void compare_three_number(){
+    int a,b,c;
+    a = 11;
+    b = 22;
+    c = 33;
+
+    if (a>b && a>c){
+        printf("%d 最大 \n",a);
+    } else if (b > a && b > c){
+        printf("%d 最大 \n",b);
+    }else if (c > a && c > b){
+        printf("%d 最大 \n",c);
+    } else{
+        printf("有两个数值或者3个数值相等\n");
+    }
+}
+
 void main() {
     /**
      * 两个整数相加
@@ -67,4 +97,14 @@ void main() {
      * 两个数相除
      */
     number_divided();
+
+    /**
+     * 比较两个数
+     */
+     compare_two_number();
+
+     /**
+      * 比较三个数
+      */
+      compare_three_number();
 }
